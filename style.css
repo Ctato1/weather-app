@@ -14,16 +14,23 @@ body {
     align-items: center;
     text-align: center;
     transition: 3s;
+
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
     
 }
 
 .all {
     text-align: center;
     
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #form {
+    
     transition: 1s ease-in-out;
     /* transform: translateY(-42px); */
 }
@@ -46,10 +53,11 @@ body {
     transform: translateY(40px);
     background: rgb(186, 192, 223);
 
+
     background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 .weather {
